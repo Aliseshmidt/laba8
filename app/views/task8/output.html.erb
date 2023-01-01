@@ -1,0 +1,19 @@
+<h1>Task8#output</h1>
+
+<table width ="50%" border = "1">
+    <tr>
+        <th>№</th>
+        <th>Number</th>
+    </tr>
+    <% @digits.each.with_index do |num, i| %>
+        <tr>
+        <td><center><%= i + 1 %><center></td> <td><center><%= num %><center></td>
+        </tr>
+    <% end %>
+</table>
+
+<br/>
+
+<%= link_to 'BACK TO INPUT PAGE', task8_input_path %>
+
+

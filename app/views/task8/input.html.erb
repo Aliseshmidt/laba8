@@ -1,0 +1,9 @@
+<h1>Task8#input</h1>
+
+<%= form_with url: "/task8/output", method: :get do |form| %>
+  <%= form.label :digit, "Input quantity of numbers:" %>
+  <%= form.number_field :digit %>
+  <%= form.submit "Enter" %>
+<% end %>
+
+
